@@ -24,11 +24,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
-    self.session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration backgroundSessionConfigurationWithIdentifier:@"com.xuegan.Test.background"] delegate:self delegateQueue:[NSOperationQueue mainQueue]];
-    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(15, 30, 100, 30)];
-    [self.view addSubview:label];
-    label.text = @"第一次测试";
-    label.textColor = [UIColor blackColor];
+//    self.session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration backgroundSessionConfigurationWithIdentifier:@"com.xuegan.Test.background"] delegate:self delegateQueue:[NSOperationQueue mainQueue]];
+//    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(15, 30, 100, 30)];
+//    [self.view addSubview:label];
+//    label.text = @"第一次测试";
+//    label.textColor = [UIColor blackColor];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{

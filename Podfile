@@ -5,6 +5,6 @@ target 'Test' do
   use_frameworks!
 
    pod 'AFNetworking', '~> 4.0'
-   pod 'SSZipArchive'
+#   pod 'SSZipArchive'
 
 end

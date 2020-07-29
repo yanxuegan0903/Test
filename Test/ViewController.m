@@ -10,7 +10,7 @@
 //#import "AFURLSessionManager.h"
 //#import "SSZipArchive.h"
 
-@interface ViewController ()//<NSURLSessionDelegate, NSURLSessionTaskDelegate, NSURLSessionDataDelegate>
+@interface ViewController ()///<, NSURLSessionTaskDelegate, NSURLSessionDataDelegate>
 
 //@property(nonatomic, strong) NSURLSession *session;
 //@property(nonatomic, strong) NSURLSessionDownloadTask *task;

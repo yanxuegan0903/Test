@@ -9,7 +9,8 @@
 #import "ViewController.h"
 //#import "AFURLSessionManager.h"
 //#import "SSZipArchive.h"
-#import "AFNetworking.h"
+#import "AFNetworking.h"f
+
 @interface ViewController ()///<, NSURLSessionTaskDelegate, NSURLSessionDataDelegate>
 
 //@property(nonatomic, strong) NSURLSession *session;
@@ -23,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor blueColor];
 //    self.session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration backgroundSessionConfigurationWithIdentifier:@"com.xuegan.Test.background"] delegate:self delegateQueue:[NSOperationQueue mainQueue]];
 //    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(15, 30, 100, 30)];
 //    [self.view addSubview:label];

@@ -9,7 +9,7 @@
 #import "ViewController.h"
 //#import "AFURLSessionManager.h"
 //#import "SSZipArchive.h"
-
+#import "AFNetworking.h"
 @interface ViewController ()///<, NSURLSessionTaskDelegate, NSURLSessionDataDelegate>
 
 //@property(nonatomic, strong) NSURLSession *session;

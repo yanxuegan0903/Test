@@ -2,14 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>provisioningprofiles</key>
+	<key>compileBitcode</key>
+	<false/>
+	<key>destination</key>
+	<string>export</string>
+	<key>method</key>
+	<string>development</string>
+	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.ciyun.uuhealth</key>
 		<string>HangTianUUTestProfile</string>
 	</dict>
+	<key>signingCertificate</key>
+	<string>652BE819B50052811BB4F3E93B3AC45AB881ED13</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
 	<key>teamID</key>
-	<string>TNR62KXM22</string>
-	<key>method</key>
-	<string>development</string>
+	<string>68JY2K9LTL</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
 </dict>
 </plist>

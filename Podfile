@@ -7,4 +7,8 @@ target 'Test' do
    pod 'AFNetworking', '~> 4.0'
 #   pod 'SSZipArchive'
 
+	use_frameworks!
+    inhibit_all_warnings!
+
+
 end
